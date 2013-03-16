@@ -1,6 +1,6 @@
 # yapp: yet another presentation program
 
-Yet another presentation program!
+Yet another presentation program!<br />
 Author the content of your presentation in Markdown and auto-export it to PDF, HTML etc.
 
 ## Status
