@@ -41,8 +41,11 @@ Since yapp uses [pandoc](http://johnmacfarlane.net/pandoc/) for creating
 output presentations, structuring the slides in your source (markdown) 
 document follows the 
 [conventions of pandoc](http://johnmacfarlane.net/pandoc/README.html#structuring-the-slide-show).
-Quoting this section (titled 
-"[Structuring the slide show](http://johnmacfarlane.net/pandoc/README.html#structuring-the-slide-show)")
+In case of any discrepancies between quoted text below and the original 
+pandoc documentation, 
+[pandoc's documentation](http://johnmacfarlane.net/pandoc/README.html#structuring-the-slide-show) 
+is the authoritative source. Quoting this section 
+(titled "[Structuring the slide show](http://johnmacfarlane.net/pandoc/README.html#structuring-the-slide-show)")
 from pandoc's documentation:
 > By default, the *slide level* is the highest header level in the hierarchy that is followed immediately by content, and not another header, somewhere in the document. In the example above, level 1 headers are always followed by level 2 headers, which are followed by content, so 2 is the slide level. This default can be overridden using the ```--slide-level``` option.
 > 
@@ -54,4 +57,3 @@ from pandoc's documentation:
 > * A title page is constructed automatically from the document’s title block, if present. (In the case of beamer, this can be disabled by commenting out some lines in the default template.)
 > 
 > These rules are designed to support many different styles of slide show. If you don’t care about structuring your slides into sections and subsections, you can just use level 1 headers for all each slide. (In that case, level 1 will be the slide level.) But you can also structure the slide show into sections, as in the example above.
-
