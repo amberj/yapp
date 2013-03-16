@@ -2,8 +2,8 @@
 
 ## Status
 Work in progress. As of now, following file formats are supported:
-* Supported input file formats: .markdown
-* Supported output file formats: .pdf
+* Supported input file formats: **.markdown**
+* Supported output file formats: **.pdf**
 The plan is to add support for all input/output formats that are
 supported by ```pandoc```.
 
@@ -30,8 +30,8 @@ Simply download
 Now put all your presentation (in markdown format) in the directory 
 containing the 
 [Makefile](https://raw.github.com/amberj/yapp/master/Makefile) and then 
-simply run:
-```make```
+simply run: ```make```
+
 That's it, you'll now have PDFs presentations in pdf/ in 'pwd'.
 
 ## Structuring the slide show (in markdown)
