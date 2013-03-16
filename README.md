@@ -1,5 +1,7 @@
 # yapp: yet another presentation program
 
+Yet another presentation program! Author the content of your presentation in Markdown and auto-export it to PDF, HTML etc.
+
 ## Status
 Work in progress. As of now, following file formats are supported:
 * Supported input file formats: **.markdown**
@@ -32,7 +34,7 @@ containing the
 [Makefile](https://raw.github.com/amberj/yapp/master/Makefile) and then 
 simply run: ```make```
 
-That's it, you'll now have PDFs presentations in pdf/ in 'pwd'.
+That's it! You'll now have PDFs presentations in pdf/ in 'pwd'.
 
 ## Structuring the slide show (in markdown)
 Since yapp uses [pandoc](http://johnmacfarlane.net/pandoc/) for creating
