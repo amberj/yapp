@@ -1,6 +1,7 @@
 # yapp: yet another presentation program
 
-Yet another presentation program! Author the content of your presentation in Markdown and auto-export it to PDF, HTML etc.
+Yet another presentation program!
+Author the content of your presentation in Markdown and auto-export it to PDF, HTML etc.
 
 ## Status
 Work in progress. As of now, following file formats are supported:
