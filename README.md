@@ -6,7 +6,8 @@ Author the content of your presentation in Markdown and auto-export it to PDF, H
 Work in progress. As of now, following file formats are supported:
 * Supported input file formats: **.markdown**
 * Supported output file formats: **.pdf**
-<br />The plan is to add support for all input/output formats that are
+
+The plan is to add support for all input/output formats that are
 supported by ```pandoc```.
 
 ## Installation
