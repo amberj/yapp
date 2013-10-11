@@ -1,9 +1,9 @@
 # FILE        Makefile
-# AUTHOR      Amber Jain <i.amber.jain@gmail.com>
+# AUTHOR      Amber Jain <i.amber.jain [at] gmail>
 # LICENSE     ISC
-# DESCRIPTION A script to download, build, test, install and package OpenCog
+# DESCRIPTION Convert all *.markdown files (in pwd) to PDF
 
-# Thanks to John MacFarlane's Makefile tip (from which this Makefile is derived):
+# Thanks to John MacFarlane's Makefile tip (from which this is derived):
 # http://stackoverflow.com/a/11030209 
 
 # Input
